@@ -63,6 +63,11 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 gcm() {
   git commit -m "$*"
 }
+
+lsfg() {
+  ls -lf | grep "$*"
+}
+
 alias fuck='thefuck'
 alias clang='clang-14'
 alias cpp='clang++'
@@ -80,6 +85,7 @@ alias tmns='tmux new -s'
 alias tmS='tmux -S'
 alias tmks='tmux kill-session -t'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias lsf='ls -lf'
 
 set +x
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

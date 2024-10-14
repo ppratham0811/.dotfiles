@@ -1,0 +1,8 @@
+-- local startup_nvim = require("startup")
+--
+-- local settings = {
+--   theme: "dashboard",
+-- }
+-- startup_nvim.setup {
+--   settings
+-- }
